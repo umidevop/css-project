@@ -1,0 +1,85 @@
+.heading{
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns :1fr 5fr  ;
+    grid-template-areas: 
+    "m m m m m"
+    "c c c c c"
+    "f f f f f";
+}
+/*.header{
+  padding: 10px;
+  background-color: rgb(210, 30, 30);
+  grid-area: h;
+  
+ */
+
+
+.content{
+    padding: 10px;
+    background-color: rgb(6, 255, 139); 
+    justify-self: center;
+    align-self: center;
+    grid-area: c;
+}
+.menu{
+    padding: 10px;
+    background-color: rgb(199, 7, 7);
+    grid-area: m;
+}
+.footer{
+    padding: 10px;
+    background-color: rgb(210, 30, 195);
+    grid-area:f;
+}
+
+.text{
+    color: darkgoldenrod;
+    font-size: 20px;
+    
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+      background-color: rgba(22, 226, 107, 0.918);
+      height: 50px;
+      line-height: 50px;
+      margin: 30px;
+      border-radius: 50px;
+      border:2px solid white;
+      margin-bottom: 30px;
+    }
+    a{
+        text-decoration:none;
+        font-size: 30px;
+        color: rgb(6, 48, 175);
+        font-weight: 400;
+        padding-right: 40px;
+        padding-left:20px;
+    }
+    .menu2{
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .input-container{
+        margin-left:  auto;
+        margin-right: 20px;
+       
+    }
+    input{
+        position: relative;
+        background-color: rgb(204, 0, 0);
+        border-radius: 15px;
+        border: none;
+        height: 30px;
+    }
+    
+    a:hover{
+        background-color: red;
+        border-radius: 70px;
+        height: 90px;
+        cursor: pointer;
+    }

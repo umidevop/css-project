@@ -1,0 +1,325 @@
+body{
+
+    background-color: rgb(255, 208, 0);
+   
+}
+.container{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+  background-color: rgba(22, 226, 107, 0.918);
+  height: 50px;
+  line-height: 50px;
+  margin: 30px;
+  border-radius: 50px;
+  border:2px solid white;
+  margin-bottom: 30px;
+}
+a{
+    text-decoration:none;
+    font-size: 30px;
+    color: rgb(6, 48, 175);
+    font-weight: 400;
+    padding-right: 40px;
+    padding-left:20px;
+}
+.menu{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.input-container{
+    margin-left:  auto;
+    margin-right: 20px;
+   
+}
+input{
+    position: relative;
+    background-color: rgb(204, 0, 0);
+    border-radius: 15px;
+    border: none;
+    height: 30px;
+}
+
+a:hover{
+    background-color: red;
+    border-radius: 70px;
+    height: 90px;
+    cursor: pointer;
+}
+#hello{
+    
+    display: flex;
+    flex-direction:column-reverse;
+    flex-wrap: wrap;
+    flex: 5px;
+}
+.container2{
+    padding: 20px;
+    background-color: rgb(199, 17, 169);
+  
+}
+.container3{
+    padding: 20px;
+    background-color: springgreen;
+   
+}.container4{
+    padding: 20px;
+    background-color: rgb(25, 174, 219);
+}
+.new-con{
+    display:flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#con1{
+    background-color: tomato;
+    padding:20px;
+    border-radius: 20px;
+    border: solid 3px black;
+    flex-basis: 200px;
+    flex:1;
+}
+#con2{
+    background-color: rgb(0, 190, 41);
+    padding:20px;
+    border-radius: 20px;
+    border: solid 3px black;
+    flex-basis: 300px;
+    flex:1;
+}
+#con3{
+    background-color: rgb(2, 79, 102);
+    padding:20px;
+    border-radius: 20px;
+    border: solid 3px black;
+    flex-basis: 200px;
+    flex:1;
+}
+#cons1{
+    padding: 10px;
+    background-color: rgb(0, 255, 255);
+    border-radius: 20px;
+    border: darkgoldenrod solid 4px;
+
+}
+#cons2{
+    padding: 10px;
+    background-color: rgb(255, 0, 212);
+    border-radius: 20px;
+    border: darkgoldenrod solid 4px;
+
+}
+#cons3{
+    padding: 10px;
+    background-color: rgb(0, 148, 37);
+    border-radius: 20px;
+    border: darkgoldenrod solid 4px;
+
+}
+#cons4{
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    border: darkgoldenrod solid 4px;
+
+
+}
+#cons5{
+    padding: 10px; border-radius: 20px;
+    border: darkgoldenrod solid 4px;
+    background-color: rgb(251, 255, 0);
+    
+
+
+}
+#cons6{
+    padding: 10px;
+    background-color: rgb(4, 4, 41);
+ color: red;
+ border-radius: 20px;
+ border: darkgoldenrod solid 4px;
+
+}
+.con-head{
+    display: grid;
+    /*Pastdadi 'fr' qiymati fraction bo'lib buni qatorlar ucun 'px' o'rniga ishlatiladi!!!*/
+    grid-template-columns:2fr 2fr 2fr 2fr;
+    grid-template-rows: 100px 130px 110px 100px;
+    
+}
+#con1{
+    background-color: tomato;
+    padding:20px;
+    border-radius: 10px;
+    border: solid 3px black;
+    flex-basis: 200px;
+    flex:1;
+}
+#con2{
+    background-color: rgb(0, 190, 41);
+    padding:20px;
+    border-radius: 20px;
+    border: solid 3px black;
+    flex-basis: 300px;
+    flex:1;
+}
+#con3{
+    background-color: rgb(2, 79, 102);
+    padding:20px;
+    border-radius: 20px;
+    border: solid 3px black;
+    flex-basis: 200px;
+    flex:1;
+}
+#cons7{
+    padding: 10px;
+    background-color: rgb(0, 255, 255);
+    border-radius: 20px;
+    border: darkgoldenrod solid 4px;
+
+}
+#cons8{
+    padding: 10px;
+    background-color: rgb(255, 0, 212);
+    border-radius: 20px;
+    border: darkgoldenrod solid 4px;
+
+}
+#cons9{
+    padding: 10px;
+    background-color: rgb(0, 148, 37);
+    border-radius: 20px;
+    border: darkgoldenrod solid 4px;
+
+
+}
+#cons10{
+    padding: 10px;
+    background-color: rgb(0, 255, 21);
+    border-radius: 20px;
+    border: darkgoldenrod solid 4px;
+
+
+}
+#cons11{
+    padding: 10px;
+    background-color: rgb(0, 4, 255);
+    border-radius: 20px;
+    border: darkgoldenrod solid 4px;
+
+
+}
+#cons12{
+    padding: 10px;
+    background-color: rgb(4, 4, 41);
+ color: rgba(9, 224, 2, 0.322);
+ border-radius: 20px;
+ border: darkgoldenrod solid 4px;
+
+}
+div1{
+    border-radius: 20px;
+    border: darkgoldenrod solid 4px;
+}
+.new{
+    display: grid;
+    grid-template-areas: 
+"a" "b" "c"
+;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+.aona1{
+    padding: 4px;
+    background-color: cadetblue;
+    grid-area: 'a';
+    margin: 6px;  
+    height: 310px;
+    width: 180px;
+}
+.bona2{
+    padding: 4px;
+    background-color: rgb(179, 255, 0);
+    grid-area: 'b';
+    margin: 6px;
+    height: 310px;
+    width: 180px;
+    color: rgb(255, 0, 0);
+}
+.cona3{
+      padding: 4px;
+    background-color: rgb(7, 0, 73);
+    margin: 6px;
+    grid-area: 'c';
+    width: 180px;
+    height: 310px;
+    color: rgb(251, 255, 0);
+}
+.head{
+    display: grid;
+    grid-template-rows:1fr;
+    grid-template-columns: repeat(1, 1fr);
+}
+.head2{
+        display: grid;
+        grid-template-rows:1fr;
+        grid-template-columns: repeat(1, 1fr);  
+    
+}
+.head1{
+    
+        display: grid;
+      grid-template-rows:1fr;
+      grid-template-columns: repeat(1, 1fr);   
+    
+}
+.koma{
+    padding: 4px;
+    background-color: rgb(10, 207, 30);
+    margin: 6px;   
+}
+.noma{
+    padding: 4px;
+    background-color: rgba(182, 46, 175, 0.493);
+    margin: 6px;   
+}
+.homa{
+    padding: 4px;
+    background-color: rgb(0, 255, 255);
+    margin: 6px;   
+}
+.cio{
+    padding: 4px;
+    background-color: rgb(7, 0, 73);
+    margin: 6px;   
+}
+.bio{
+    padding: 4px;
+    background-color: rgb(255, 13, 13);
+    margin: 6px;   
+    color: darkorange;
+}
+.toma{
+
+    padding: 4px;
+    background-color: rgb(228, 255, 139);
+    margin: 6px;   
+}
+.aoma{
+    padding: 4px;
+    background-color: rgb(211, 43, 169);
+    margin: 6px;   
+}
+.coma{
+    padding: 4px;
+    background-color: rgb(25, 146, 96);
+    margin: 6px;   
+}
+.boma{
+    padding: 4px;
+    background-color: rgb(150, 158, 33);
+    margin: 6px;   
+}

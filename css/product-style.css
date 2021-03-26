@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(255, 208, 0);;
+}
+
+.cont1
+{
+    padding: 15px;
+    background-color: blue;
+}.cont2
+{
+    padding: 15px;
+    background-color: rgb(217, 255, 0);
+}.cont3
+{
+    padding: 15px;
+    background-color: rgb(119, 0, 255);
+}.cont4
+{
+    padding: 15px;
+    background-color: rgb(255, 145, 0);
+}.cont5
+{
+    padding: 15px;
+    background-color: rgb(3, 117, 28);
+}.cont6
+{
+    padding: 15px;
+    background-color: rgb(255, 0, 0);
+}
+.grid{
+ display: grid;
+grid-template-columns: repeat(2, 2fr);
+grid-template-rows: 1fr 1fr;
+ grid-gap: 5px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+      background-color: rgba(22, 226, 107, 0.918);
+      height: 50px;
+      line-height: 50px;
+      margin: 30px;
+      border-radius: 50px;
+      border:2px solid white;
+      margin-bottom: 30px;
+    }
+    a{
+        text-decoration:none;
+        font-size: 30px;
+        color: rgb(6, 48, 175);
+        font-weight: 400;
+        padding-right: 40px;
+        padding-left:20px;
+    }
+    .menu{
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .input-container{
+        margin-left:  auto;
+        margin-right: 20px;
+       
+    }
+    input{
+        position: relative;
+        background-color: rgb(204, 0, 0);
+        border-radius: 15px;
+        border: none;
+        height: 30px;
+    }
+    
+    a:hover{
+        background-color: red;
+        border-radius: 70px;
+        height: 90px;
+        cursor: pointer;
+    }
+    .line
+{
+    width: auto;
+    height: 9px;
+    line-height: 9px;
+    color: cadetblue;
+}
+.new-bar{
+    display: grid;
+    background-color: #23df3c;
+    justify-content: center;
+    grid-template-areas: 
+    "n" "b"
+    "n" "n"
+    "s" "s"
+    ;
+}
+.news1{
+    display: grid;
+    justify-content: left;
+    grid-area: "n";
+}
+.num1{
+padding: 10px;
+background-color: rgb(204, 255, 20);
+}
+.num2{
+    padding: 10px;
+    background-color: cornflowerblue;
+    }
+    .num3{
+        padding: 10px;
+        background-color: rgb(237, 100, 100);
+        }
+        .bews2{
+            padding: 10px;
+            background-color: rgb(237, 100, 100);
+                grid-area: "b";
+        }
+        .sews3{
+            padding: 10px;
+            background-color: rgb(237, 100, 100);
+                grid-area: "s";  
+        }
+        
